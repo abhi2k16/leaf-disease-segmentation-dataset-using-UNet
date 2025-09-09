@@ -1,12 +1,9 @@
 # U-Net model for computer vision 
-#Ref: https://youtu.be/fBlLsugz6Q8 
-#Ref: https://github.com/priyammaz/PyTorch-Adventures/blob/main/PyTorch%20for%20Computer%20Vision/UNET%20for%20Segmentation/UNET%20for%20Semantic%20Segmentation.ipynb
-#%%
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torchsummary import summary
-#%%
+# Device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
 #Residual block
