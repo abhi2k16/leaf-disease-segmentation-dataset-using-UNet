@@ -57,7 +57,7 @@ def show_results(model, dataset, num_samples=3):
 
 if __name__ == "__main__":
     # Load dataset
-    data_path = r"C:\Users\abhij\Desktop\CompVisionImageProc\CV_DLModels\UNetModel\leaf-disease-segmentation-dataset\data"
+    data_path = r"..\leaf-disease-segmentation-dataset\data"
     test_dataset = Dataset(data_path, train=False, image_size=128)
     
     # Load trained model
