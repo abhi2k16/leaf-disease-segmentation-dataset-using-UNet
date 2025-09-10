@@ -18,8 +18,8 @@ from accelerate import Accelerator
 from UNetModel import UNet
 from dataloader import Dataset
 
-#path_to_data = r"C:\Users\abhij\Desktop\CompVisionImageProc\CV_DLModels\UNetModel\leaf-disease-segmentation-dataset\data"
-path_to_data = r"C:\Users\abhij\Desktop\CompVisionImageProc\CV_DLModels\UNetModel\leaf-disease-segmentation-dataset\data"
+
+path_to_data = r"..\leaf-disease-segmentation-dataset\data"
 
 def train(batch_size = 4,
           gradient_accumulation_steps = 1,
