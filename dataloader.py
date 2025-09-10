@@ -120,7 +120,7 @@ class Dataset(Dataset):
         return image, annotation
 
 if __name__ == "__main__":
-    data_path = r"C:\Users\abhij\Desktop\CompVisionImageProc\CV_DLModels\UNetModel\leaf-disease-segmentation-dataset\data"
+    data_path = r"..\leaf-disease-segmentation-dataset\data"
     
     # Check if training/validation folders exist in images and annotation folder
     train_img_path = os.path.join(data_path, "images", "training")
